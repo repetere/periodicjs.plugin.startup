@@ -3,7 +3,6 @@
   "description": "adding additional loggers, newrelic, amazon sns and CORS support for reactapp Edit Add topics",
   "version": "0.0.1",
   "main": "index.js",
-  "private": true,
   "engines": {
     "node": "^6.x"
   },
