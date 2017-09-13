@@ -1,0 +1,45 @@
+{
+  "name": "periodicjs.plugin.startup",
+  "description": "adding additional loggers, newrelic, amazon sns and CORS support for reactapp Edit Add topics",
+  "version": "0.0.1",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": "^6.x"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js --e",
+    "test": "mocha -R spec --recursive"
+  },
+  "bugs": {
+    "url": "https://github.com/typesettin/periodicjs.plugin.startup/issues"
+  },
+  "author": "DigiFi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typesettin/periodicjs.plugin.startup.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "helmet": "^3.8.1",
+    "winston-newrelic-update": "^0.3.0",
+    "winston-sns": "^0.2.4"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "coveralls": "^2.13.1",
+    "grunt": "^1.0.1",
+    "grunt-coveralls": "^1.0.1",
+    "grunt-jsdoc": "^2.1.0",
+    "grunt-mocha-cov": "^0.4.0",
+    "grunt-mocha-istanbul": "^5.0.2",
+    "grunt-simple-mocha": "^0.4.1",
+    "istanbul": "^0.4.5",
+    "jsdoc": "^3.4.3",
+    "jsdoc-to-markdown": "^3.0.0",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.6",
+    "sinon-chai": "^2.11.0"
+  }
+}
