@@ -1,7 +1,7 @@
 {
   "name": "periodicjs.plugin.startup",
   "description": "adding additional loggers, newrelic, amazon sns and CORS support for reactapp Edit Add topics",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "index.js",
   "engines": {
     "node": "^6.x"
